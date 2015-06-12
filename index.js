@@ -1,8 +1,9 @@
 module.exports = {
-  log: require('./lib/log'),
-  hash: require('./lib/hash'),
-  resolve: require('./lib/resolve'),
+  colors: require('chalk'),
   execPlugins: require('./lib/execPlugins'),
   getDataURI: require('./lib/getDataURI'),
-  PluginError: require('./lib/PluginError')
+  hash: require('./lib/hash'),
+  log: require('./lib/log'),
+  PluginError: require('./lib/PluginError'),
+  resolve: require('./lib/resolve')
 };
