@@ -7,5 +7,6 @@ module.exports = {
   log: require('./lib/log'),
   plugin: require('./lib/plugin'),
   PluginError: require('./lib/PluginError'),
+  relative: require('./lib/relative'),
   resolve: require('./lib/resolve')
 };
