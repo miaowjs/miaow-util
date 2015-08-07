@@ -1,6 +1,7 @@
 module.exports = {
   colors: require('chalk'),
   dest: require('./lib/dest'),
+  duration: require('./lib/duration'),
   execPlugins: require('./lib/execPlugins'),
   getDataURI: require('./lib/getDataURI'),
   hash: require('./lib/hash'),
