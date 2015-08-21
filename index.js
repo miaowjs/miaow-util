@@ -5,6 +5,7 @@ module.exports = {
   execPlugins: require('./lib/execPlugins'),
   getDataURI: require('./lib/getDataURI'),
   hash: require('./lib/hash'),
+  isMain: require('./lib/isMain'),
   log: require('./lib/log'),
   plugin: require('./lib/plugin'),
   PluginError: require('./lib/PluginError'),
