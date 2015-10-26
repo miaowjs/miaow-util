@@ -19,14 +19,6 @@ mutil.getDataURI('~/foo.png');
 
 [chalk](https://github.com/sindresorhus/chalk) 的实例引用
 
-### dest(filePath, contents, encoding, cb)
-
-将`Buffer`类型的内容以指定的编码格式生成到指定的路径下(如果路径不存在,就逐级创建)
-
-### execPlugins(context, plugins, cb)
-
-顺序执行查件序列，插件可以是模块名也可以是函数，如果需要传递参数给查件，请以 `[{plugin: plugin, option: option}]` 的方式传递插件序列
-
 ### getDataURI(filePath)
 
 获取文件的 [data-uri](http://en.wikipedia.org/wiki/Data_URI_scheme)
@@ -35,10 +27,10 @@ mutil.getDataURI('~/foo.png');
 
 获取数据的 `md5`
 
-### log(info...)
+### console
 
-在控制台中打印出信息，并在信息前统一追加时间
+包含了`log`、`warn`和`error`三个打印日志的方法
 
-### PluginError(pluginName, message[, options])
+### duration(time)
 
-参考 [gulp-util](https://github.com/gulpjs/gulp-util#new-pluginerrorpluginname-message-options)
+返回毫秒单位的时间差语义字符串
